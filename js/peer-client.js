@@ -3,7 +3,7 @@ peerapp = (function() {
 
     console.log("Peer client started");
 
-    var PEER_SERVER = 'peerjs-51414.netlify.app';
+    var PEER_SERVER = 'https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js';
     var PORT = 443;
     var connectedPeers = {};
     var myPeerID = generateRandomID(4);
