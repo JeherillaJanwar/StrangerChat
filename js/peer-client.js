@@ -3,7 +3,7 @@ peerapp = (function() {
 
     console.log("Peer client started");
 
-    var PEER_SERVER = 'peerjs2-4oanzyhs1-askishaansh-gmailcom.vercel.app';
+    var PEER_SERVER = 'jeherillajanwar.github.io/StrangerChat';
     var PORT = 443;
     var connectedPeers = {};
     var myPeerID = generateRandomID(4);
