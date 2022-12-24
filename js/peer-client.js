@@ -3,7 +3,7 @@ peerapp = (function() {
 
     console.log("Peer client started");
 
-    var PEER_SERVER = 'peerjs2.vercel.app';
+    var PEER_SERVER = 'peerjs2-4oanzyhs1-askishaansh-gmailcom.vercel.app';
     var PORT = 443;
     var connectedPeers = {};
     var myPeerID = generateRandomID(4);
@@ -23,8 +23,7 @@ peerapp = (function() {
         peer = new Peer(myPeerID, { host: PEER_SERVER, port: PORT, path: '/', secure: true });  
         peerCallbacks(peer);
     }    
-    // var peer = new Peer({ host: 'my-peer.herokuapp.com', port: '443', path: '/', secure: true });
-    // connectToServerWithId(myPeerID);
+   
     console.log(peer)
 
     initializeLocalMedia({'audio': true, 'video': true});
