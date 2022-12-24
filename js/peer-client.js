@@ -3,7 +3,7 @@ peerapp = (function() {
 
     console.log("Peer client started");
 
-    var PEER_SERVER = 'jeherillajanwar.github.io/StrangerChat';
+    var PEER_SERVER = ''; // add in your server
     var PORT = 443;
     var connectedPeers = {};
     var myPeerID = generateRandomID(4);
