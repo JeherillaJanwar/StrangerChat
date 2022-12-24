@@ -3,7 +3,7 @@ peerapp = (function() {
 
     console.log("Peer client started");
 
-    var PEER_SERVER = ''; // fork the repo https://github.com/JeherillaJanwar/peerjs then deploy it from heroku. Take that Heroku link and add it here
+    var PEER_SERVER = 'peerjs2.vercel.app';
     var PORT = 443;
     var connectedPeers = {};
     var myPeerID = generateRandomID(4);
