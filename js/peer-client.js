@@ -3,7 +3,7 @@ peerapp = (function () {
 
   console.log("Peer client started");
 
-  var PEER_SERVER = "peerjs.myusernameistoolong.repl.co"; // add in your server
+  var PEER_SERVER = "peerjs2.myusernameistoolong.repl.co"; // add in your server
   var connectedPeers = {};
   var myPeerID = generateRandomID(4);
   var peer;
